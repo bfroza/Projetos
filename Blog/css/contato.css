@@ -1,0 +1,96 @@
+/* Geral */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Georgia;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #444;
+    transition: 0.4s;
+  }
+  
+  a:hover {
+    color: #37a1f7;
+  }
+  
+
+  #navbar {
+    padding: 1.5rem 2.5rem;
+    border-bottom: 2px solid #ddd;
+  }
+  
+  #navbar-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1650px;
+    margin: 0 auto;
+  }
+  
+  #nav-links {
+    display: flex;
+    gap: 2rem;
+  }
+
+  #footer{
+    border-top: 2px solid #ddd;
+    padding: 3rem;
+    text-align: center;
+  }
+
+  #footer h2,
+  #footer p{
+    margin-bottom: 1rem;;
+  }
+
+  
+  @media(max-width: 450px){
+    .container{
+      flex-wrap: wrap;
+    }
+    
+  }
+.contato{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1650px;
+    margin: 0 auto;
+}
+.contato h1{
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.contato table{
+     
+    margin-bottom: 230px;
+}
+table {
+    max-width: 1650px;
+    border-collapse: collapse;
+    text-align: center;
+    
+}
+
+.contato tr{
+    font-size: large;
+}
+th, td {
+    
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    padding: 1rem;
+    background-color: #f2f2f2;
+}
